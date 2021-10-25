@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Formulario completo</title>
+<meta charset="UTF-8"> 
+</head>
+<body>
+<form method="POST" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+<table border=1>
+	<tr>
+		<th colspan=2 align="center">FORMULARIO DE USUARIO</th>
+	</tr>
+	<tr>
+		<td><label for="campo_nombre">Introduce nombre</label></td>
+		<td><input type="text" id="campo_nombre" name="nombre"></td>
+	</tr>
+	<tr>
+		<td><label for="campo_password">Introduce contraseña</label></td>
+		<td><input type="password" id="campo_password" name="password"></td>
+	</tr>
+	<tr> 
+		<td><label for="campo_direccion">Introduce dirección</label></td>
+		<td><textarea name="direccion" id="campo_direccion" rows="3" cols="50"></textarea></td>
+	</tr>
+	<tr>
+		<td>Selecciona deporte</td>
+		<td>
+			<input type="checkbox" id="campo_hockey" name="deportes[]" value="hockey">
+			<label for="campo_hockey">Hockey</label> <br>
+			<input type="checkbox" id="campo_futbol" name="deportes[]" value="futbol">
+			<label for="campo_futbol">Fútbol</label> <br>
+			<input type="checkbox" id="campo_badminton" name="deportes[]" value="badminton">
+			<label for="campo_badminton">Badminton</label> <br>
+			<input type="checkbox" id="campo_cricket" name="deportes[]" value="cricket">
+			<label for="campo_cricket">Cricket</label> <br>
+			<input type="checkbox" id="campo_volleyball" name="deportes[]" value="volleyball">
+			<label for="campo_volleyball">Volleyball</label>
+	</tr>
+	<tr>
+		<td>Género</td>
+		<td>
+			<input type="radio" name="sexo" id="campo_hombre" value="hombre">
+			<label for="campo_hombre">Hombre</label>
+			<input type="radio" name="sexo" id="campo_mujer" value="mujer">
+			<label for="campo_mujer">Mujer</label>
+		</td>
+	</tr>
+	<tr> <td><label for="campo_edad">Selecciona edad</label></td>
+		<td>
+			<select id="campo_edad" name="edad">
+			<option value="selecciona" selected>Selecciona opción</option>
+			<option value="20 años">20 años</option>
+			<option value="21 años">21 años</option>
+			<option value="22 años">22 años</option>
+			<option value="más de 22 años">Más de 22 años</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align="center"><input type="file" name="archivo"></td>
+	</tr>
+	<tr>
+		<td colspan=2 align="center">
+			<input type="button" value="Clica aquí">
+			<input type="reset">
+			<input type="submit" value="Enviar formulario">
+		</td>
+	</tr>
+
+</table>
+</form>
+</body>
+</html>
