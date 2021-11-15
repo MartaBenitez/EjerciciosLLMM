@@ -6,9 +6,11 @@ div{
 	border-radius: 20px;
 	background-image:url('../images/primavera.jpg') ;
 	background-repeat: no-repeat ;
+	background-size: 100%;
 }
 
 div:hover{
 	background-image: url('../images/otono.jpg');
 	background-repeat: no-repeat ;
+	background-size: 100%;
 }
