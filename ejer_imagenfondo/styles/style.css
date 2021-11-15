@@ -1,0 +1,14 @@
+div{
+	width: 900px;
+	height: 500px;
+	border: 7px solid;
+	border-color: darkblue;
+	border-radius: 20px;
+	background-image:url('../images/primavera.jpg') ;
+	background-repeat: no-repeat ;
+}
+
+div:hover{
+	background-image: url('../images/otono.jpg');
+	background-repeat: no-repeat ;
+}
