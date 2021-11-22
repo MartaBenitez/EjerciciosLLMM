@@ -1,0 +1,28 @@
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+img{
+	position: absolute;
+	top: 100px;
+	left: 850px;
+	height: 75%;
+
+}
+p{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 800px;
+	font-size: 25px;
+}
+a{
+	position: fixed;
+	top: 550px;
+	left: 1100px;
+	background-color: #8a6daf;
+	font-size: 30px;
+	border: solid 2px #8a6daf;
+	padding: 5px;
+	color: white;
+}
