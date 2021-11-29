@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+}
+#perro{
+	transform: translate(540px,50px);
+}
+div p{
+	position: relative;
+	width: 100px;
+	left: 100px; 
+	background-color: lightyellow;
+}
+#verde{
+	background-color: lightgreen;
+	transform: scale(4,2);
+	bottom: 50px;
+	left: 500px;
+}
+#azul{
+	background-color:  lightblue;
+	transform:  scale(0.5,0.8);
+	left: 800px;
+	bottom: 100px;
+}
+#gato{
+	position: relative;
+	left: 250px;
+	top: 50px;
+	width: 25%;
+	transform: skew(-45deg,-5deg);
+}
